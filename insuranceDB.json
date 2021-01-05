@@ -1,0 +1,26 @@
+[
+    {
+        "insId":"I1001",
+        "name":"HealthCare Insurance",
+        "cover":"50L",
+        "policyperiod":"1 year",
+        "payfor":"1 year",
+        "premium":8880,
+        "memberscovered":1,
+        "companyname":"XYZ Pvt Ltd",
+        "image":"healthInsurance.jpg"
+        
+    },
+
+    {
+        "insId":"I1001",
+        "name":"Term Life Insurance",
+        "cover":"50L",
+        "policyperiod":"70 years",
+        "payfor":"47 years",
+        "premium":9099,
+        "memberscovered":1,
+        "companyname":"ABC Pvt Ltd",
+        "image":"termInsurance.jpg"
+    }
+]
