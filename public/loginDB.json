@@ -1,0 +1,14 @@
+[
+    {
+        "agentNo":12345678,
+        "password":"Mayur@123"
+    },
+    {
+        "agentNo":23456789,
+        "password":"Abc@1234"
+    },
+    {
+        "agentNo":34567890,
+        "password":"Xyz@1234"
+    }
+]

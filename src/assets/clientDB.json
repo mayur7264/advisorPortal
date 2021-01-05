@@ -1,0 +1,35 @@
+[
+    {
+        "clientId":"C1001",
+        "name":"abc",
+        "age":35,
+        "dob":"27/01/1985",
+        "activePlans":[
+            "Retirement Plan","Pension Scheme","Life Insurance"
+        ],
+        "monthlyContribution":12000,
+        "image":"../assets/person.png"
+    },
+    {
+        "clientId":"C1002",
+        "name":"pqr",
+        "age":25,
+        "dob":"01/04/1995",
+        "activePlans":[
+            "Retirement Plan","Pension Scheme","Life Insurance"
+        ],
+        "monthlyContribution":9000,
+        "image":"../assets/person.png"
+    },
+    {
+        "clientId":"C1003",
+        "name":"xyz",
+        "age":32,
+        "dob":"30/05/1988",
+        "activePlans":[
+            "Pension Scheme","Life Insurance"
+        ],
+        "monthlyContribution":10000,
+        "image":"../assets/person.png"
+    }
+]

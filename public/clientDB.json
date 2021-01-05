@@ -1,0 +1,41 @@
+[
+    {
+        "clientId":"C1001",
+        "name":"abc",
+        "age":35,
+        "dob":"27/01/1985",
+        "email":"abc123@xyz.com",
+        "contactno":9878765432,
+        "activePlans":[
+            "Retirement Plan","Pension Scheme","Life Insurance"
+        ],
+        "monthlyContribution":5000,
+        "image":"/assets/person.png"
+    },
+    {
+        "clientId":"C1002",
+        "name":"pqr",
+        "age":25,
+        "dob":"01/04/1995",
+        "email":"pqr123@xyz.com",
+        "contactno":9172765732,
+        "activePlans":[
+            "Retirement Plan","Pension Scheme","Life Insurance"
+        ],
+        "monthlyContribution":3000,
+        "image":"/assets/person.png"
+    },
+    {
+        "clientId":"C1003",
+        "name":"xyz",
+        "age":32,
+        "dob":"30/05/1988",
+        "email":"def123@xyz.com",
+        "contactno":9378725352,
+        "activePlans":[
+            "Pension Scheme","Life Insurance"
+        ],
+        "monthlyContribution":2000,
+        "image":"/assets/person.png"
+    }
+]
