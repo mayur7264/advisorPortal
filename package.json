@@ -16,7 +16,7 @@
     "react-scripts": "4.0.1",
     "web-vitals": "^0.2.4"
   },
-  "homepage": "https://mayur7264.github.io/react",
+  "homepage": "https://mayur7264.github.io/advisorPortal",
   "scripts": {
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build",
