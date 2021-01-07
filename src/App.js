@@ -22,7 +22,7 @@ function App() {
       <Navbar/>
       
         <Switch>
-          <Route exact path='/advisorPortal' component={Login}/>
+          <Route exact path='https://mayur7264.github.io/advisorPortal' component={Login}/>
           <Route exact path='/login' component={Login}/>
           <Route exact path='/register' component={Register}/>
           <Route exact path='/home' component={Home}/>
