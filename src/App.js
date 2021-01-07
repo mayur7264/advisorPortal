@@ -10,7 +10,7 @@ import ViewClient from './component/ViewClient'
 import AddClient from './component/AddClient'
 import AllocatePlan from './component/AllocatePlan'
 import NotFoundSection from './component/NotFoundSection'
-import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
+import { BrowserRouter as Router, Redirect, Route, Switch } from "react-router-dom";
 
 
 function App() {
@@ -23,6 +23,7 @@ function App() {
       
         <Switch>
           <Route exact path='https://mayur7264.github.io/advisorPortal' component={Login}/>
+          <Route exact path = "/" component={Login}/>
           <Route exact path='/login' component={Login}/>
           <Route exact path='/register' component={Register}/>
           <Route exact path='/home' component={Home}/>
@@ -31,7 +32,8 @@ function App() {
           <Route exact path='/home/clientmanagement/addclient' component={AddClient}/>
           <Route exact path='/home/insurancemanagement' component={InsuranceManagement}/>
           <Route exact path='/home/insurancemanagement/allocateplan' component={AllocatePlan}/>
-          <Route path = '*' component={NotFoundSection}/>
+          {/*<Route path = '*' component={NotFoundSection}/>*/}
+          <Redirect to="/"/>
         </Switch>
       </Router>
 
